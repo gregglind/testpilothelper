@@ -2,8 +2,8 @@
   "id": "testpilothelper@ux.mozilla.com",
   "name": "testpilothelper",
   "fullName": "testpilothelper",
-  "description": "a basic add-on",
-  "author": "",
+  "description": "run this before running your testpilot stuff",
+  "author": "Gregg Lind <glind@mozilla.com>",
   "license": "MPL 2.0",
   "version": "0.1"
 }
