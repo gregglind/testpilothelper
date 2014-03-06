@@ -4,10 +4,23 @@ Test Pilot Helper
 Improved debugging of TestPilot installations and experiments by turning on useful settings, and
 opening useful pages
 
+
+Setup
+------
+
+1. in tpweb directory, so that  `locahost:8000/testcases/` works.
+
+python -m SimpleHTTPServer &
+
+2. Have your experimence there in `index-my.html`
+
 Simplest
 ------------
 
 	cfx run --addon path/to/testpilot-1.x.x.xpi
+
+
+    cfx run --static-args='{"local":true,"prefs":{"extensions.testpilot.deploymentRandomizer.search-distribution-census":"42.3","general.useragent.locale":"de"}}' --addon='test_pilot-1.2.3-fx.xpi'
 
 Or
 
